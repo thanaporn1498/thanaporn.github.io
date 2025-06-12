@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my_porfile.jpg" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Thanaporn<br>Keadphol</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:thanaporn.kead00@gmail.com" class="contact-link">thanaporn.kead00@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+66 94-6713128</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">March 3, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bang Pa-In, Ayutthaya, Thailand</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Line Chatbot for Snake Classification</h2>
+          <div class="close-button-wrapper">
+            <a href="index.html" class="close-button" title="กลับหน้าแรก">
+              <ion-icon name="close-outline" size="large"></ion-icon>
+            </a>
+          </div>
+        </header>
+
+        <section class="about-text">
+          <p>
+           This project aims to develop a snake species classification system using artificial intelligence and image processing to address the problem of accurately identifying snakebite species, which is crucial for effective treatment. In Thailand, about 69.24% of snakebite victims cannot identify the snake species, leading to treatment errors. The system employs object detection models such as YOLO and various deep learning techniques to detect and classify 10 venomous and non-venomous snake species. It is integrated with a LINE Chatbot, allowing users to send snake images for analysis and receive preliminary information, first aid advice, and emergency contact details. The model achieves high accuracy in detection and classification, enhancing emergency care and decision-making.
+
+          
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+  <h3 class="h3 service-title">Documents</h3>
+
+  <ul class="service-list">
+    <!-- รายการอื่น ๆ ของคุณ -->
+  </ul>
+
+  <!-- ฝัง PDF แสดงบนหน้าเว็บ -->
+  <div class="pdf-viewer" style="margin-top: 20px;">
+    <iframe 
+      src="./assets/docs/Line Chatbot for Snake Classification.pdf" 
+      width="100%" height="600px" 
+      style="border: none;">
+    </iframe>
+  </div>
+
+</section>
+
+<section class="service">
+
+  <h3 class="h3 service-title">Poster</h3>
+
+  <ul class="service-list">
+    <!-- รายการอื่น ๆ ของคุณ -->
+  </ul>
+
+  <!-- ใส่รูปภาพโปสเตอร์ -->
+  <div class="poster-image" style="margin-top: 20px;">
+    <img src="./assets/images/snake_2.png" alt="Project Poster" width="100%" />
+  </div>
+
+</section>
+<section class="service">
+
+  <h3 class="h3 service-title">Project Video</h3>
+
+  <video width="100%" height="auto" controls>
+    <source src="./assets/images/VDO_Snake.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+</section>
+
+
+
+        
+
+      </article>
